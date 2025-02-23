@@ -121,7 +121,7 @@ function modalWin(title, btnIndex) {
                         alert("Login successful");
                         sessionStorage.setItem("login", loginVal);
                         sessionStorage.setItem("password", password);
-                        location.href = "../html/passwordGenerator.html";
+                        location.href = "./html/passwordGenerator.html";
                     } else {
                         alert(
                             "Просим Вас зарегистрироваться, перед использованием программы"
