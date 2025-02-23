@@ -110,7 +110,7 @@ function modalWin(title, btnIndex) {
                 addUser(loginVal, password);
                 sessionStorage.setItem("login", loginVal);
                 sessionStorage.setItem("password", password);
-                location.href = "./../html/passwordGenerator.html";
+                location.href = "./html/passwordGenerator.html";
             }
         }
         // Логика входа
